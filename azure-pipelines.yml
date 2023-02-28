@@ -20,3 +20,15 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'test'
+
+- task: PublishCucumberReport
+  displayName: 'Publish Cucumber Report'
+  inputs:
+    jsonDir: ./target/cucumber/
+    outputPath: ./target/cucumber/
+    metadata: |
+      {
+        "ApplicationUrl": "$(App.Url)"
+      }
+    name: 'Functional Tests'
+    title: API
