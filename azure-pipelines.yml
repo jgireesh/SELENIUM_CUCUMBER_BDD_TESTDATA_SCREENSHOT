@@ -21,7 +21,7 @@ steps:
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'test'
 
-- task: PublishCucumberReport
+- task: PublishCucumberReport@1
   displayName: 'Publish Cucumber Report'
   inputs:
     jsonDir: ./target/cucumber/
