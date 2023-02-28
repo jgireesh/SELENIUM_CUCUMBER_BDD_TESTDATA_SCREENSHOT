@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BasePage {
     static final String USER_DIR = System.getProperty("user.dir");
-    private String chrome_driverPath = USER_DIR+"\\browser-drivers\\chromedriver.exe";
+    private String chrome_driverPath = USER_DIR+"/browser-drivers/chromedriver.exe";
     public static WebDriver driver;
 
 
