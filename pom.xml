@@ -12,9 +12,9 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenium-java>3.141.59</selenium-java>
-        <junit>4.12</junit>
-        <io.cucumber>4.2.0</io.cucumber>
+        <selenium-java>4.8.3</selenium-java>
+        <junit>4.13.2</junit>
+        <io.cucumber>7.11.2</io.cucumber>
     </properties>
     <dependencies>
         <dependency>
@@ -58,7 +58,18 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>gherkin</artifactId>
-            <version>4.1.3</version>
+            <version>26.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java8</artifactId>
+            <version>${io.cucumber}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.11.0</version>
         </dependency>
     </dependencies>
 </project>
