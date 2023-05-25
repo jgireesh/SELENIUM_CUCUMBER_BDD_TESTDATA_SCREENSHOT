@@ -1,13 +1,13 @@
-package com.bbc.steps;
+package com.cucumber.steps;
 
-import com.bbc.utils.BasePage;
+import com.cucumber.utils.BasePage;
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
 import io.cucumber.java.Before;
 
 import java.util.logging.Logger;
 
-import static com.bbc.utils.BasePage.teardown;
+import static com.cucumber.utils.BasePage.teardown;
 
 public class GeneralStepDefs {
 

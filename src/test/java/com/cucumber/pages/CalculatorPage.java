@@ -1,12 +1,12 @@
-package com.bbc.pages;
+package com.cucumber.pages;
 
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.InvalidArgumentException;
 import org.openqa.selenium.support.ui.Select;
 
-import static com.bbc.utils.BasePage.driver;
-import static com.bbc.utils.ConfigUtils.getASpecificProperty;
+import static com.cucumber.utils.BasePage.driver;
+import static com.cucumber.utils.ConfigUtils.getASpecificProperty;
 
 public class CalculatorPage {
     By calculatorHeading = By.xpath("//h1[contains(text(),'How much could I borrow?')]");

@@ -1,4 +1,4 @@
-package com.bbc.utils;
+package com.cucumber.utils;
 
 import java.util.HashMap;
 import java.util.Map;

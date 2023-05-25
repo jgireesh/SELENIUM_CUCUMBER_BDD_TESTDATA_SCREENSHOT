@@ -1,4 +1,4 @@
-package com.bbc.utils;
+package com.cucumber.utils;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -12,9 +12,9 @@ import java.io.File;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-import static com.bbc.steps.GeneralStepDefs.currentScenario;
-import static com.bbc.steps.GeneralStepDefs.getCurrentScenario;
-import static com.bbc.utils.BasePage.driver;
+import static com.cucumber.steps.GeneralStepDefs.currentScenario;
+import static com.cucumber.steps.GeneralStepDefs.getCurrentScenario;
+import static com.cucumber.utils.BasePage.driver;
 
 public class ScreenshotUtils {
     final String USER_DIR = System.getProperty("user.dir");

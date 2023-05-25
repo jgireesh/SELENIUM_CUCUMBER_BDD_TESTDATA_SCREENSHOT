@@ -1,6 +1,6 @@
-package com.bbc.utils;
+package com.cucumber.utils;
 
-import com.bbc.steps.GeneralStepDefs;
+import com.cucumber.steps.GeneralStepDefs;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;

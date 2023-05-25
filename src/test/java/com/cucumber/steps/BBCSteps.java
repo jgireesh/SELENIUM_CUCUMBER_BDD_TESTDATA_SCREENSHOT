@@ -1,12 +1,12 @@
-package com.bbc.steps;
+package com.cucumber.steps;
 
-import com.bbc.pages.BbcHomePage;
+import com.cucumber.pages.BbcHomePage;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-import static com.bbc.utils.BasePage.driver;
+import static com.cucumber.utils.BasePage.driver;
 
 public class BBCSteps {
 

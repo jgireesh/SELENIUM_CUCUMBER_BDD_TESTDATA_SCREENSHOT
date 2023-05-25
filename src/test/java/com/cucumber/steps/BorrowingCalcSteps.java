@@ -1,6 +1,6 @@
-package com.bbc.steps;
+package com.cucumber.steps;
 
-import com.bbc.pages.CalculatorPage;
+import com.cucumber.pages.CalculatorPage;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

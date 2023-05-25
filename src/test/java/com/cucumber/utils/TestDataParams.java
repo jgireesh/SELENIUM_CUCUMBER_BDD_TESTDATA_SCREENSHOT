@@ -1,4 +1,4 @@
-package com.bbc.utils;
+package com.cucumber.utils;
 
 public enum TestDataParams {
     BASE_URL,

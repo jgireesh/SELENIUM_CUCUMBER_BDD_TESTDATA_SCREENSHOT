@@ -1,15 +1,15 @@
-package com.bbc.pages;
+package com.cucumber.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import com.bbc.utils.*;
+import com.cucumber.utils.*;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
-import static com.bbc.utils.BasePage.driver;
-import static com.bbc.utils.ConfigUtils.getASpecificProperty;
-import static com.bbc.utils.TestDataParams.*;
+import static com.cucumber.utils.BasePage.driver;
+import static com.cucumber.utils.ConfigUtils.getASpecificProperty;
+import static com.cucumber.utils.TestDataParams.*;
 
 public class BbcHomePage {
     String url = getASpecificProperty("url");
